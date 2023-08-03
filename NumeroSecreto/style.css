@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+
+:root {
+    --cor-principal: #eae2fd; 
+    --bg-color: #4942E4;
+    --font-principal: 'Work Sans', sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--cor-principal);
+    min-height: 100vh;
+    margin: 0;
+    padding: 1em;
+    font-family: var(--font-principal);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box {
+    border: 2px solid var(--cor-principal);
+    font-size: 2em;
+    display: inline-block;
+    margin: 1.2em;
+    padding: .9em;
+}
+
+.aviso {
+    margin-top: 3em;
+    font-size: .85em;
+    font-style: italic;
+
+}
+
+.btn-jogar {
+    background-color: var(--cor-principal);
+    border: none;
+    padding: 0.6em 1em;
+    border-radius: 5px;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+.btn-jogar:hover {
+    opacity: .8;
+}
