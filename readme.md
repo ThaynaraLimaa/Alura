@@ -1,0 +1,1 @@
+Este repositório é dedicado para armazenar alguns dos projetos que realizei durante alguns dos cursos da [Alura](https://www.alura.com.br/). 
