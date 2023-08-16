@@ -21,7 +21,7 @@
 * Manipulação de DOM 
 * localStorage 
 
-## Coisas que eu aprendi durando o curse 
+## Coisas que eu aprendi durando o curso 
 * Expressões regulares do atributo pattern. 
 * Calculo para verificar se um CPF é válido
 * Lidar com o input data
