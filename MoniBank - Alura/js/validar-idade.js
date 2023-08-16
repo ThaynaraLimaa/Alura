@@ -5,8 +5,8 @@ export default function ehMaiorDeIdade(campo) {
     }
 }
 
-function validaIdade(data) {
+function validaIdade(dataDeNascimento) {
     const dataAtual = new Date () // quando não passa nada dentro dos aprentesses ele pega a data atual
-    const dataMais18 = new Date(data.getUTCFullYear() + 18, data.getUTCMonth(), data.getUTCDate()); // varifica quando a pessoa fez 18 anos 
+    const dataMais18 = new Date(dataDeNascimento.getUTCFullYear() + 18, dataDeNascimento.getUTCMonth(), dataDeNascimento.getUTCDate()); // varifica quando a pessoa fez 18 anos 
     return dataAtual >= dataMais18
 }
